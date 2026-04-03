@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://averraai.com"),
+  metadataBase: new URL("https://www.averra-ai.com.au"),
   title: "Averra AI — AI-Powered Firewall Policy Intelligence",
   description:
     "Averra AI gives enterprise security teams AI-driven clarity and control over firewall policies. Cut change cycles from 45 days to minutes. Built for regulated industries.",
