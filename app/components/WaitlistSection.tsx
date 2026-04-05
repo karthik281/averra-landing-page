@@ -71,8 +71,8 @@ export default function WaitlistSection() {
             <p className="text-blue-100/70">
               We&apos;ll be in touch soon. In the meantime, feel free to reach out
               directly at{" "}
-              <a href="mailto:rao.kar@gmail.com" className="text-amber-300 underline underline-offset-2">
-                rao.kar@gmail.com
+              <a href="mailto:karthik@averra-ai.com.au" className="text-amber-300 underline underline-offset-2">
+                karthik@averra-ai.com.au
               </a>
             </p>
           </div>
@@ -139,13 +139,13 @@ export default function WaitlistSection() {
         {/* Contact alternatives */}
         <div className="mt-12 pt-10 border-t border-white/10 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm">
           <a
-            href="mailto:rao.kar@gmail.com"
+            href="mailto:karthik@averra-ai.com.au"
             className="flex items-center gap-2 text-blue-200/70 hover:text-white transition-colors"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            rao.kar@gmail.com
+            karthik@averra-ai.com.au
           </a>
           <a
             href="https://linkedin.com/in/karthik-a-rao"

@@ -18,7 +18,7 @@ export async function joinWaitlist(formData: FormData) {
   // Example with Resend:
   // import { Resend } from 'resend';
   // const resend = new Resend(process.env.RESEND_API_KEY);
-  // await resend.emails.send({ from: '...', to: 'rao.kar@gmail.com', subject: `New waitlist signup: ${email}`, text: `Name: ${name}\nEmail: ${email}` });
+  // await resend.emails.send({ from: '...', to: 'karthik@averra-ai.com.au', subject: `New waitlist signup: ${email}`, text: `Name: ${name}\nEmail: ${email}` });
 
   console.log(`New waitlist signup: ${name} @ ${company} <${email}>`);
 

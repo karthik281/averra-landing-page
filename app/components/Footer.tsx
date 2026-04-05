@@ -46,10 +46,10 @@ export default function Footer() {
           {/* Contact */}
           <div className="flex items-center gap-4 text-sm">
             <a
-              href="mailto:rao.kar@gmail.com"
+              href="mailto:karthik@averra-ai.com.au"
               className="hover:text-white transition-colors"
             >
-              rao.kar@gmail.com
+              karthik@averra-ai.com.au
             </a>
             <a
               href="https://linkedin.com/in/karthik-a-rao"
