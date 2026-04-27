@@ -43,7 +43,7 @@ export default function WaitlistSection() {
 
         <div className="inline-flex items-center gap-2 bg-white/10 border border-white/15 text-blue-100 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-          MVP in Development · Early Access Available
+          Live Demo Available · Early Access Open
         </div>
 
         <h2 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-6 leading-tight">
@@ -138,6 +138,17 @@ export default function WaitlistSection() {
 
         {/* Contact alternatives */}
         <div className="mt-12 pt-10 border-t border-white/10 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm">
+          <a
+            href="https://app.averra-ai.com.au"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-amber-300 hover:text-amber-200 transition-colors font-medium"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            Try the live demo
+          </a>
           <a
             href="mailto:karthik@averra-ai.com.au"
             className="flex items-center gap-2 text-blue-200/70 hover:text-white transition-colors"

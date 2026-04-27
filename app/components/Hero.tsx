@@ -158,6 +158,17 @@ export default function Hero() {
                 </svg>
               </a>
               <a
+                href="https://app.averra-ai.com.au"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl text-base transition-all duration-200 backdrop-blur-sm hover:scale-105"
+              >
+                Try Live Demo
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              <a
                 href="#how-it-works"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-semibold px-8 py-4 rounded-xl text-base transition-all duration-200 backdrop-blur-sm"
               >
@@ -167,7 +178,7 @@ export default function Hero() {
 
             {/* Trust signals */}
             <p className="mt-6 text-sm text-blue-200/50">
-              Observed in Tier 1 banking environments · MVP in development
+              Observed in Tier 1 banking environments · Live demo available
             </p>
           </div>
 
