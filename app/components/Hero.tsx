@@ -158,9 +158,7 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="https://app.averra-ai.com.au"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/register"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl text-base transition-all duration-200 backdrop-blur-sm hover:scale-105"
               >
                 Try Live Demo
