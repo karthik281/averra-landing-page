@@ -214,7 +214,7 @@ export default function RegisterPage() {
                   <div className="mt-5 pt-5 border-t border-white/[0.07] flex items-center justify-between">
                     <p className="text-white/25 text-xs">No password · No spam</p>
                     <a
-                      href={DEMO_URL}
+                      href={`${DEMO_URL}/get-started`}
                       className="text-white/25 hover:text-white/50 text-xs transition-colors"
                     >
                       Skip registration →
